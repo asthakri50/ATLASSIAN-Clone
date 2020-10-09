@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {NavbarBrand} from "reactstrap"
+import web1 from '../src/images/Atlassian-horizontal-blue-rgb.svg'
+import web2 from '../src/images/Jira Software-blue.svg'
 const Navbar = () => {
     return(
         <>
@@ -7,11 +9,14 @@ const Navbar = () => {
      <div className='row1'>
          <div className="col-10 mx-auto">
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="https://www.atlassian.com/">ATLASSIAN</a>
+<div className="navbar navbar-expand-lg navbar-light bg-light">
+  <NavbarBrand href="/">
+    <img src={web1} alt="ATLASSIAN-logo"/>
+    </NavbarBrand>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
+
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
@@ -62,7 +67,7 @@ const Navbar = () => {
     
 
   </div>
-</nav>
+</div>
 </div>
 
 
