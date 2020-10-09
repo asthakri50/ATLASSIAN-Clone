@@ -1,14 +1,14 @@
 import React from 'react';
-//import logo from './logo.svg';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Body from './Body';
-//import './App.css';
-import Navbar from './Navbar';
 import Footer from './Footer';
+import LowerBar from './LowerBar';
+import UpperBar from './UpperBar';
 function App() {
   return (
     <>
-    <Navbar />
+    <UpperBar />
+    <LowerBar />
      <Body />
      <Footer />
     </>

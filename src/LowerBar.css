@@ -1,0 +1,11 @@
+.row2 {
+    color: white;
+    box-shadow: 2ch;
+    box-sizing: inherit;
+    margin-top: 0;
+    background-color: transparent !important;
+}
+.nav-link {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0,0,220);
+    }
